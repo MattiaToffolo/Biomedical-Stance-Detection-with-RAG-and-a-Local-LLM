@@ -1,4 +1,4 @@
-# Scientific Contradiction Detector
+# Biomedical Stance Detection with RAG and a Local LLM
 
 A local AI prototype designed to help researchers and analysts organise biomedical evidence before a manual review. Enter a claim to explore potentially supporting, contradicting and neutral abstracts, with PubMed links and an LLM-generated summary. Built with Python, RAG, ChromaDB, LangChain, llama3.2 via Ollama, and Streamlit.
 
@@ -97,7 +97,7 @@ python -m pip install -r requirements.txt
 
 ```powershell
 C:\sc\venv\Scripts\Activate.ps1   # activate venv (Windows)
-cd path/to/Scientific-Contradiction-Detector
+cd path/to/Biomedical-Stance-Detection
 ```
 
 Make sure Ollama is running (system tray on Windows, `ollama serve` on Mac/Linux).
