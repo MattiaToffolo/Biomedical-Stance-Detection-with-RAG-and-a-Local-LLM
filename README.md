@@ -97,7 +97,7 @@ python -m pip install -r requirements.txt
 
 ```powershell
 C:\sc\venv\Scripts\Activate.ps1   # activate venv (Windows)
-cd path/to/Biomedical-Stance-Detection
+cd path/to/Biomedical-Stance-Detection-with-RAG-and-a-Local-LLM
 ```
 
 Make sure Ollama is running (system tray on Windows, `ollama serve` on Mac/Linux).
